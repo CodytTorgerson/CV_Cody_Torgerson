@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(192, 106, 192);
+    font-family: Helvetica, sans-serif;
+  }
+
+  .headerarea{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    text-shadow: 4px 4px 0px #000000;
+  }
+  
