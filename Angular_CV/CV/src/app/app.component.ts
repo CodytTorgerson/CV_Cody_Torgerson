@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CV';
+  color1= 250
+  color2 = 250
+  color3 = 250
 }
+
