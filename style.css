@@ -3,18 +3,57 @@ body {
   }
 
   .cvarea{
-
+    
 
     width: 21cm;
     height: 29.7cm;
+    margin-left: 15px;
   }
   .headerarea{
+
+
+  }
+  .headerarea .headergird{
     display: grid;
-    height: 20%;
     grid-template-areas: "Name Email Phone Adress"
                           "nametext emailtext phonetext adresstext";
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 10% 10%;
-    margin-left: 15px;
+    grid-template-rows: 50% 50%;
+    border-bottom: 1px solid gray;
   }
-  
+.intro{
+  display: grid;
+  grid-template-areas: "Picture Text";
+  grid-template-columns: 20% 50%;
+  border-bottom: 1px solid gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+  .itskillsarea{
+
+  }
+
+
+.itskillsarea .itgrid{
+  display: grid;
+  grid-template-columns: 13.3% 25%  13.3% 25%  13.3% 25%;
+  grid-template-rows: 50% 50%;
+}
+
+.tablerow{ display: flex;
+  align-items: center;}
+
+  .boxes{ font-size: 20px;
+          }
+  .dot{
+      height: 20px;
+      width: 20px;
+      background-color: rgb(0, 60, 255);
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 2%;
+  }
+
+.itskillsarea th{width: 15%;
+text-align: left;}
