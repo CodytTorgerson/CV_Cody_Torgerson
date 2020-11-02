@@ -1,0 +1,84 @@
+  .cvarea{
+    
+    font-family: Helvetica, sans-serif;
+    width: 21cm;
+    margin-left: 9%;
+    margin-bottom: 5%;
+  }
+  .headerarea{
+    height: 70px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+  }
+  .headerarea .headergird{
+    display: grid;
+    grid-template-areas: "Name Email Phone Adress"
+                          "nametext emailtext phonetext adresstext";
+    grid-template-columns: 25% 25% 17% 25%;
+    grid-template-rows: 50% 50%;
+    column-gap: 42px;
+    height: 100%;
+
+    align-items: center;
+
+  }
+
+
+
+
+.intro{
+  margin-top: 15px;
+  display: grid;
+  grid-template-areas: "Picture Text";
+  grid-template-columns: 20% 50%;
+  border-bottom: 1px solid gray;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  
+}
+
+  .itskillsarea{
+    height: 110px;
+    border-bottom: 1px solid gray;
+    
+  }
+
+
+.itskillsarea .itgrid{
+  display: grid;
+  grid-template-columns: 13.3% 25%  13.3% 25%  13.3% 25%;
+  grid-template-rows: 50% 50%;
+  margin-bottom: 3%;
+}
+
+.tablerow{ display: flex;
+  align-items: center;}
+
+  .boxes{ font-size: 20px;
+          }
+  .dot{
+      height: 20px;
+      width: 20px;
+      background-color: rgb(0, 60, 255);
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 2%;
+  }
+
+.itskillsarea th{width: 15%;
+text-align: left;}
+
+.WorkExperinceArea{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: auto auto auto auto;
+  border-bottom: 1px solid gray;
+  padding-bottom: 15px;
+}
+
+.EducationArea{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: auto auto auto;
+  border-bottom: 1px solid gray;
+}
